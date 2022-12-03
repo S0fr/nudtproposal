@@ -1,20 +1,12 @@
-# NUDT硕士博士研究生开题报告latex模板说明
+# NUDT硕士博士研究生开题报告latex模板说明（update reference）
 
 # 前言
 
-用过 latex 就会知道它的好，但是没有模板的时候真的很痛。所以“NUDT 硕士博士研究生开题报告 latex 模板”应运而生了。
+fork from TomHeaven/nudtproposal[NUDT proposal](https://github.com/TomHeaven/nudtproposal)
 
-这里必须吐槽：
-
-+ 我校的开题报告竟然放在一个表里！！！这在全国高校里不多见。
-+ 开题报告的文献竟然也是放在表格里，这个罕见的设定让作者足足抓狂了三天。并且还留下了一个会带来一点点不方便的 BUG。
-
-# 更新日志
-
-- 2021.08.29 更换字体为Windows TTF字体，与硕博论文模版[NUDT Thesis](https://github.com/TomHeaven/nudt_thesis)保持一致。
-- 2018.08.21 修正部分错误，更新 readme 文件
-- 2018.03.24 更新为二〇一八年一月版本格式
-- 2017.03.09 修正了参考文献文件不能被 texstudio 自动检测到的问题。
+reference在我的机器上运行存在一些问题，故进行了部分调整，但是原project中的reference的BUG仍然存在，或者说更严重（捂脸）
+虽然差强人意，但是勉强可用。
+注意用法->首页设定中BUG 的临时解决方案，进行了调整。
 
 # 用法
 
