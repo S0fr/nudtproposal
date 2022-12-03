@@ -2,7 +2,7 @@
 
 # 前言
 
-fork from TomHeaven/nudtproposal[NUDT proposal](https://github.com/TomHeaven/nudtproposal)
+fork from TomHeaven/nudtproposal [NUDT proposal](https://github.com/TomHeaven/nudtproposal)
 
 reference在我的机器上运行存在一些问题，故进行了部分调整，但是原project中的reference的BUG仍然存在，或者说更严重（捂脸）
 虽然差强人意，但是勉强可用。
@@ -29,6 +29,12 @@ nudtProposal.tex 中的注释已有详细说明：
 % 最终提交前将此参数改为 yes 编译一次。注意：设置为yes后编译第二次就会出现正文中引用数字都是 0 的 BUG!
 % 如果设置为 yes 后，还需要修改正文，那么改为 no，编译两次参考文献才会正常!
 \enabletablebib{no}   % 最终提交前将此参数改为 yes 编译一次! 如需修改正文，改为 no 后编译两次参考文献才会正常!
+
+修改成为yes后，第一次编译会出现以下结果：
+
+再次编译后才会正常：
+
+我也不知道为啥，但是能用了，希望后续有大神能帮忙解决这个BUG
 
 %% 以下参数用于设置文档首页和页眉信息
 \proposaltype{doctor}          % 研究生类别：硕士设置为 master，博士设置为 doctor
