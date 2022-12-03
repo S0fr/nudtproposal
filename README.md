@@ -4,8 +4,13 @@
 
 fork from TomHeaven/nudtproposal [NUDT proposal](https://github.com/TomHeaven/nudtproposal)
 
-reference在我的机器上运行存在一些问题，故进行了部分调整，但是原project中的reference的BUG仍然存在，或者说更严重（捂脸）
-虽然差强人意，但是勉强可用。
+reference在我的机器上运行存在一些问题
+
+BUG如下：（\enabletablebib{yes}后编译结果如下）
+![refernce_bug](./Img/bug.png)
+
+故进行了部分调整，但是原project中的reference的BUG仍然存在（捂脸）
+差强人意，勉强能用。
 注意用法->首页设定中BUG 的临时解决方案，进行了调整。
 
 希望有大神能解决这个BUG
@@ -28,14 +33,19 @@ nudtProposal.tex 中的注释已有详细说明：
 % 必须先设置为 no 编译一次。否则正文中引用数字都是 0。
 % 最终提交前将此参数改为 yes 编译一次。注意：设置为yes后编译第二次就会出现正文中引用数字都是 0 的 BUG!
 % 如果设置为 yes 后，还需要修改正文，那么改为 no，编译两次参考文献才会正常!
-\enabletablebib{no}   % 最终提交前将此参数改为 yes 编译一次! 如需修改正文，改为 no 后编译两次参考文献才会正常!
+\enabletablebib{no}   % 最终提交前将此参数改为 yes 编译两次! 如需修改正文，改为 no 后编译两次参考文献才会正常!
+```
+**注意！！！！！！！！！**
 
-修改成为yes后，第一次编译会出现以下结果：
+经过我修改后，这个BUG进化了(捂脸)
+修改成为yes后，第一次编译会出现以下结果，表头并不对齐，这时不要慌
+![refernce_bug](./Img/bug1.png)
 
-再次编译后才会正常：
+再次编译后就会正常：
+![refernce_bug](./Img/normal.png)
 
 我也不知道为啥，但是能用了，希望后续有大神能帮忙解决这个BUG
-
+```
 %% 以下参数用于设置文档首页和页眉信息
 \proposaltype{doctor}          % 研究生类别：硕士设置为 master，博士设置为 doctor
 \enabletableofcontents{no}   % 是否生成目录：如果需要目录设置为 yes，否则设置为 no。我校开题报告默认没有目录
