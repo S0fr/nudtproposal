@@ -9,7 +9,7 @@ reference在我的机器上运行存在一些问题
 BUG如下：（\enabletablebib{yes}后编译结果如下）
 ![refernce_bug](./Img/bug.png)
 
-故进行了部分调整，但是原project中的reference的BUG仍然存在（捂脸）
+故进行了部分调整，但是原project中的reference的BUG仍然存在🤦‍♂️
 差强人意，勉强能用。
 注意用法->首页设定中BUG 的临时解决方案，进行了调整。
 
@@ -37,7 +37,7 @@ nudtProposal.tex 中的注释已有详细说明：
 ```
 **注意！！！！！！！！！**
 
-经过我修改后，这个BUG进化了(捂脸)
+经过我修改后，这个BUG进化了🤦‍♂️
 修改成为yes后，第一次编译会出现以下结果，表头并不对齐，这时不要慌
 ![refernce_bug](./Img/bug1.png)
 
