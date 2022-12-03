@@ -98,6 +98,12 @@ nudtProposal.tex 中的注释已有详细说明：
 ![refernce_bug](./Img/normal-new.png)
 
 我也不知道为啥，但是能用了，希望后续有大神能帮忙解决这个BUG
+
+
+以下皆为原repo内容：
+
+--- 
+
 ```
 %% 以下参数用于设置文档首页和页眉信息
 \proposaltype{doctor}          % 研究生类别：硕士设置为 master，博士设置为 doctor
