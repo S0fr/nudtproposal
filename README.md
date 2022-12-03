@@ -1,4 +1,4 @@
-# NUDT硕士博士研究生开题报告latex模板说明（update reference）
+# NUDT硕士博士研究生开题报告latex模板说明（update reference BUG, not fix）
 
 # 前言
 
