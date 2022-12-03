@@ -270,20 +270,24 @@
   	{\heiti \zihao{2} 说 \qquad 明}
   \end{center}
   	{\songti 
-  	\begin{enumerate}[label={\chinese*、},labelsep=0pt]
+  		\begin{enumerate}[label={\chinese*、},labelsep=0pt]
 	\addtolength{\itemsep}{-.5\baselineskip}%缩小条目之间的间距
   		\item 开题报告应按下述要求打印后装订成册：
-  		\begin{enumerate}[label={\arabic*.},labelsep=0pt]
-		\addtolength{\itemsep}{-.3\baselineskip}%缩小条目之间的间距，下面类似
-  			\item 	使用A4白纸，双面打印；
-  			\item 	封面中填写内容使用小3号仿宋字体；
-  			\item 	表中填写内容使用5号楷体字体。
-  		\end{enumerate}
+  		%\begin{enumerate}[label={\arabic*.},labelsep=0pt]
+		%\addtolength{\itemsep}{-.3\baselineskip}%缩小条目之间的间距，下面类似
+		
+  		1. 使用A4白纸，双面打印；
+  		
+  		2. 封面中填写内容使用小3号仿宋字体；
+  		
+  		3. 表中填写内容使用5号楷体字体。
+  		%\end{enumerate}
   		\item 封面中的编号由学院填写，采用八位数编码，前四位为审批日期，精确到年月即可，第五位为院别，后三位为审批流水号（按年）。如15016100，为6院15年审批的第100位开题申请者，审批时间为15年1月份。院别代码与编制序列一致，海洋科学与工程研究院代码为0。
   		\item 开题报告表中学员填写的内容包括学位论文选题的立论依据、文献综述、研究内容、研究条件、学位论文工作计划、主要参考文献等，指导教师认可学员开题报告内容后，对学员学位论文选题价值、对国内/外研究现状的了解情况、研究内容、研究方案等方面予以评价。
   		\item 开题报告评议小组一般由3-5名具有正高级专业技术职务的专家（包括导师）组成，其中一名为跨一级学科的专家。
 		\item 若开题报告获得通过，应根据评议小组意见对开题报告进行修改，并在开题报告会后两周内，将评议表和修订后开题报告纸质版原件交学院备案；若开题报告未获得通过，则填报延期开题申请，由原开题报告评议小组重新组织开题报告会。
 	\end{enumerate}
+ 
  
     }
    \clearpage
