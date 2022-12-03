@@ -16,10 +16,14 @@ BUG如下：（\enabletablebib{yes}后编译结果如下）
 希望有大神能解决这个BUG
 
 除此之外，我在使用时还遇到一些情况，可能和我的环境相关，解决方法仅供参考：（不算bug，和各老师要求的格式相关）
+
 1、首行缩进问题
-我使用时，如果在每一个section里，不加subsection，直接开始写内容，就会出现无法首行缩进的问题，直接手动在内容前加个缩进\qquad
+
+我使用时，如果在每一个section里，不加subsection，直接开始写内容，就会出现无法首行缩进的问题，直接手动在内容前加个缩进`\qquad`
+
 2、字体问题
-我使用时，正文不是楷体，在\begin{mdframed}[everyline=true]下面加\kaishu
+
+我使用时，正文不是楷体，在`\begin{mdframed}[everyline=true]`下面加`\kaishu`
 
 # 用法
 
