@@ -42,7 +42,7 @@ nudtProposal.tex 中的注释已有详细说明：
 ![refernce_bug](./Img/bug1.png)
 
 再次编译后就会正常：
-![refernce_bug](./Img/normal.png)
+![refernce_bug](./Img/normal-new.png)
 
 我也不知道为啥，但是能用了，希望后续有大神能帮忙解决这个BUG
 ```
